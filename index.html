@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ong Hiok Hian | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="sidebar-content">
+            <div class="profile-section">
+                <img src="assets/profile_pic.jpeg" alt="Profile Picture" class="profile-pic">
+                <h1 class="profile-name">Ong Hiok Hian</h1>
+                <p class="profile-role">Machine Learning Engineer</p>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#experience" class="nav-link"><i class="fas fa-briefcase"></i> Experience</a></li>
+                    <!-- <li><a href="#personal-projects" class="nav-link"><i class="fas fa-tools"></i> Personal Projects</a></li> -->
+                    <li><a href="#research-projects" class="nav-link"><i class="fas fa-atom"></i> Research Projects</a></li>
+                    <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                </ul>
+            </nav>
+
+            <div class="social-links">
+                <a href="https://scholar.google.com/citations?user=RphI1ogAAAAJ&hl=en" target="_blank" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                <a href="https://www.linkedin.com/in/ong-hiok-hian/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/HiokHian" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <!-- <a href="mailto:email@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a> -->
+            </div>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <div class="container">
+            
+            <section id="experience">
+                <h2 class="section-title"><i class="fas fa-briefcase"></i> Experience</h2>
+                
+                <div class="timeline-item">
+                    <div class="meta-col">
+                        <img src="assets/tiktok_logo.jpg" alt="Company Logo" class="company-logo">
+                        </div>
+                    <div class="content-col">
+                        <div class="job-header">
+                            <h3>Algorithm Engineer</h3>
+                        <span class="date">Jan 2024 - Present</span>
+                        </div>
+                        <span class="company-name">TikTok</span>
+                        <div class="description">
+                            <ul>
+                                <li>Video deduplication using multimodal video/audio/text models</li>
+                                <li>Adapting MLLMs for video reranking and retrieval</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="meta-col">
+                        <img src="assets/sap_logo.jpg" alt="Company Logo" class="company-logo">
+                        </div>
+                    <div class="content-col">
+                        <div class="job-header">
+                            <h3>AI Engineer Intern (AI Centre of Excellence)</h3>
+                        <span class="date">May 2023 - Aug 2023</span>
+                        </div>
+                        <span class="company-name">SAP</span>
+                        <div class="description">
+                            <ul>
+                                <li>Containerized and built LLM powered conversational news aggregator web application using NextJS, FastAPI, and Langchain</li>
+                                <li>Built regularly scheduled continual learning pipeline with data versioning, incorporating experiment monitoring using MLFlow for the purpose of retraining legal document question answering model on Azure Databricks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="meta-col">
+                        <img src="assets/grab_logo.svg" alt="Company Logo" class="company-logo">
+                        </div>
+                    <div class="content-col">
+                        <div class="job-header">
+                            <h3>Data Science Intern (Deliveries Team)</h3>
+                        <span class="date">Jan 2023 - May 2023</span>
+                        </div>
+                        <span class="company-name">Grab</span>
+                        <div class="description">
+                            <ul>
+                                <li>Built Named Entity Recognition (NER) toolbox for preprocessing, training, evaluation and inference, incorporating different text encoders with a CRF layer for mining entity names for constructing a taxonomy tree</li>
+                                <li>Web scraping, synthetic data generation and data curation for NER task</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="meta-col">
+                        <img src="assets/motional_logo.jpg" alt="Company Logo" class="company-logo">
+                        </div>
+                    <div class="content-col">
+                        <div class="job-header">
+                            <h3>Software Development Intern (Data Mining Team)</h3>
+                        <span class="date">May 2022 - Nov 2022</span>
+                        </div>
+                        <span class="company-name">Motional</span>
+                        <div class="description">
+                            <ul>
+                                <li>Built and scaled core infrastructural features for enabling and accelerating large scale feature caching and training for motion planning models in multinode distributed setting for open source nuPlan devkit</li>
+                                <li>Researched and implemented algorithms for occlusion mining in order to improve perception networks used by the autonomous vehicles and trained motion planning models on large scale data</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="meta-col">
+                        <img src="assets/shopee_logo.svg" alt="Company Logo" class="company-logo">
+                        </div>
+                    <div class="content-col">
+                        <div class="job-header">
+                            <h3>Data Science intern (Identify Verification Team)</h3>
+                        <span class="date">May 2021 - Jul 2021</span>
+                        </div>
+                        <span class="company-name">Shopee</span>
+                        <div class="description">
+                            <ul>
+                                <li>Worked on Image Forgery Detection and Identity Verification (Identity Verification Team: ICAS)</li>
+                                <li>Mined datasets from the internal unlabeled data using a combination of traditional computer vision techniques and generation of synthetic data</li>
+                                <li>Trained an object detection model RetinaNet and a StyleGAN on the internal Identity Card dataset to generate a synthetic dataset that simulates digital manipulation attacks and wrote a set of python packages to automate the generation of these attacks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="meta-col">
+                        <img src="assets/dso_logo.webp" alt="Company Logo" class="company-logo">
+                        </div>
+                    <div class="content-col">
+                        <div class="job-header">
+                            <h3>Algorithm Engineer</h3>
+                        <span class="date">Jun 2020 - Oct 2020</span>
+                        </div>
+                        <span class="company-name">DSO National Laboratories</span>
+                        <div class="description">
+                            <ul>
+                                <li>Conducted literature review to identify Eye Tracking metrics indicative of Situation Awareness</li>
+                                <li>Implemented data processing and real time visualisation of eye tracking metrics</li>
+                                <li>Ran experiments on time series classification of eye tracking metrics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+<!-- 
+            <hr class="divider">
+
+            <section id="personal-projects">
+                <h2 class="section-title"><i class="fas fa-tools"></i> Personal Projects</h2>
+                <div class="grid-wrapper">
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                        <h3>Task Master App</h3>
+                        <p>A productivity web application that helps users manage daily tasks with a focus timer.</p>
+                        <div class="tags">
+                            <span>React</span>
+                            <span>Firebase</span>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-links">
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3>AlgoVisualizer</h3>
+                        <p>Visualizing sorting algorithms like Quick Sort and Merge Sort in real-time.</p>
+                        <div class="tags">
+                            <span>JavaScript</span>
+                            <span>HTML5 Canvas</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section> -->
+
+            <hr class="divider">
+
+            <section id="research-projects">
+                <h2 class="section-title"><i class="fas fa-atom"></i> Research Projects</h2>
+                <div class="grid-wrapper">
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-links">
+                                <a href="https://github.com/conghaowang/GLDM" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://academic.oup.com/bib/article-abstract/25/3/bbae142/7640735" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                                <a href="https://ieeexplore.ieee.org/document/10447480" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </div>
+                        </div>
+                        <h3>GLDM: hit molecule generation with constrained graph latent diffusion model </h3>
+                        <p>Targeted Drug discovery using adversarial graph autoencoders and latent diffusion models. The goal is to generate promising drug molecules that can induce the desired gene expression change in cells.</p>
+                        <div class="tags">
+                            <span>Drug Discovery</span>
+                            <span>Graph Neural Networks</span>
+                            <span>Adversarial Autoencoders</span>
+                            <span>Latent Diffusion Models</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-links">
+                                <a href="https://arxiv.org/abs/2512.03553" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </div>
+                        </div>
+                        <h3>Dynamic Content Moderation in Livestreams: Combining Supervised Classification with MLLM-Boosted Similarity Matching</h3>
+                        <p>Large-scale Content Moderation System on TikTok Live, using a suite of multimodal models (Images/Audio/Text) enhanced with MLLMs using knowledge distillation.</p>
+                        <div class="tags">
+                            <span>Content Moderation</span>
+                            <span>Multimodal LLMs</span>
+                            <span>Video Duplicate Detection</span>
+                            <span>Video Understanding</span>
+                            <span>Knowledge Distillation</span>
+                            <span>Large Scale Deployment</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-links">
+                                <a href="https://link.springer.com/article/10.1007/s10549-022-06521-7" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </div>
+                        </div>
+                        <h3>Multi-center evaluation of artificial intelligent imaging and clinical models for predicting neoadjuvant chemotherapy response in breast cancer</h3>
+                        <p>Application of classical Machine Learning and Deep Learning methods for predicting patient response to Neoadjuvant Chemotherapy.</p>
+                        <div class="tags">
+                            <span>Predictive Medicine</span>
+                            <span>CT Imaging Models</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-links">
+                                <a href="https://dl.acm.org/doi/abs/10.1145/3371382.3378345" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                            </div>
+                        </div>
+                        <h3>Considerations in Determining Human-Robot Ratio</h3>
+                        <p>Determining a methodology for measuring the optimal human to robot ratio</p>
+                        <div class="tags">
+                            <span>Human Robot Ratio</span>
+                            <span>Human Computer Interaction</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <hr class="divider">
+
+            <section id="education">
+                <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+                <div class="timeline-item">
+                    <div class="meta-col">
+                        <img src="assets/ntu_logo.webp" alt="Company Logo" class="company-logo">
+                    </div>
+                    <div class="content-col">
+                        <div class="job-header">
+                        <h3>Bachelor of Engineering Science (Computer Science)</h3>
+                            <span class="date">2019 - 2023</span>
+                        </div>
+                        <span class="company-name">Nanyang Technological University</span>
+
+                        <div class="description">
+                            <p><strong>Renaissance Engineering Programme</strong></p>
+                            <p>Honours (Highest Distinction)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="meta-col">
+                        <img src="assets/uc_berkeley_logo.png" alt="Company Logo" class="company-logo">
+                    </div>
+                    <div class="content-col">
+                        <div class="job-header">
+                        <h3></h3>
+                            <span class="date">2022 - 2022</span>
+                        </div>
+                        <span class="company-name">University of California, Berkeley</span>
+
+                        <div class="description">
+                            <p><strong>Globe Visiting Scholar Program</strong></p>
+                            <p>Exchange Semester</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="meta-col">
+                        <img src="assets/ntu_logo.webp" alt="Company Logo" class="company-logo">
+                    </div>
+                    <div class="content-col">
+                        <div class="job-header">
+                        <h3>Bachelor of Engineering Science (Computer Science)</h3>
+                            <span class="date">2019 - 2023</span>
+                        </div>
+                        <span class="company-name">Nanyang Technological University</span>
+
+                        <div class="description">
+                            <p><strong>Renaissance Engineering Programme</strong></p>
+                            <p>Honours (Highest Distinction)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+            </footer>
+
+        </div>
+    </main>
+
+</body>
+</html>
