@@ -241,6 +241,23 @@ section {
     border: 1px solid transparent;
 }
 
+/* --- RESEARCH CARD IMAGE STYLES --- */
+.card-image {
+    width: 100%;
+    height: 120px; /* Fixed height for uniformity */
+    object-fit: cover; /* Crops image to fill area without stretching */
+    border-radius: 6px; /* Slightly less than the card's 8px for a nested look */
+    margin-bottom: 15px;
+    border: 1px solid #e5e7eb; /* Subtle border to define the image edge */
+}
+
+/* Optional: If you want the image to flush against the top/sides of the card
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px; /* Slightly reduced padding to balance the visual weight 
+} */
+
 .card:hover {
     transform: translateY(-5px);
     border-color: #e5e7eb;
